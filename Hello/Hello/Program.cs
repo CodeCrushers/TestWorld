@@ -15,14 +15,16 @@ namespace Hello {
             Console.WriteLine("Gustav er en dejlig drengn");
             Console.WriteLine("1337 haX0r");
             Console.WriteLine("Gustav er en dejlig dreng");
-            
-            foreach(var v in list) {
+
+            insertStrings();
+
+            foreach (var v in list) {
                 Console.WriteLine(v);
             }
 
         }
 
-        private void insertStrings() {
+        private static void insertStrings() {
             list.Add("Casper was here");
         }
 
