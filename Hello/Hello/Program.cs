@@ -8,6 +8,7 @@ namespace Hello {
     class Program {
 
         private static List<string> list = new List<string>();
+        private static List<Person> people = new List<Person>();
 
         static void Main(string[] args) {
             Console.WriteLine("Hej, Casper was here");
@@ -20,6 +21,10 @@ namespace Hello {
 
             foreach (var v in list) {
                 Console.WriteLine(v);
+            }
+
+            foreach (Person p in people) {
+                string s = p.name;
             }
 
         }
