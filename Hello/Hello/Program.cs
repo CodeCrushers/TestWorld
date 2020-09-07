@@ -39,6 +39,7 @@ namespace Hello {
         private void Math()
         {
             Console.WriteLine("12345678");
+            Console.ReadLine();
         }
     }
 }
