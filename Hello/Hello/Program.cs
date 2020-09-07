@@ -10,6 +10,7 @@ namespace Hello {
             Console.WriteLine("Hej, Casper was here");
             Console.WriteLine("LOL DUDE Same");
             Console.WriteLine("Gustav er en dejlig drengn");
+            Console.WriteLine("1337 haX0r");
         }
     }
 }
