@@ -26,7 +26,6 @@ namespace Hello {
             Console.WriteLine("Gustav er en dejlig dreng");
             BetterMath();
             Console.ReadLine();
-
             insertStrings();
 
             foreach (var v in list) {
