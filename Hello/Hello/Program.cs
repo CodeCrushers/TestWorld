@@ -32,5 +32,11 @@ namespace Hello {
         {
             Console.WriteLine("12345678");
         }
+
+
+        public void BetterMath()
+        {
+            Console.WriteLine("i'm better lol");
+        }
     }
 }
