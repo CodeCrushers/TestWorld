@@ -11,17 +11,27 @@ namespace Hello {
         private static List<Person> people = new List<Person>();
 
         static void Main(string[] args) {
+            int tal = 10;
+            int[] flereTal = new int[10];
+            while (tal > 0)
+            {
+                tal--;
+                flereTal[tal] = tal;
+                Console.WriteLine(tal);
+            }
             Console.WriteLine("Hej, Casper was here");
             Console.WriteLine("LOL DUDE Same");
             Console.WriteLine("Gustav er en dejlig drengn");
             Console.WriteLine("1337 haX0r");
             Console.WriteLine("Gustav er en dejlig dreng");
+            Console.ReadLine();
 
             insertStrings();
 
             foreach (var v in list) {
                 Console.WriteLine(v);
             }
+            Math();
 
             foreach (Person p in people) {
                 string s = p.name;
@@ -33,7 +43,7 @@ namespace Hello {
             list.Add("Casper was here");
         }
 
-        private void Math()
+        private static void Math()
         {
             Console.WriteLine("12345678");
             Console.ReadLine();
