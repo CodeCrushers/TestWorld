@@ -15,6 +15,8 @@ namespace Hello {
             Console.WriteLine("Gustav er en dejlig drengn");
             Console.WriteLine("1337 haX0r");
             Console.WriteLine("Gustav er en dejlig dreng");
+            Console.WriteLine("Gustav er en dejlig dreng version 2.0");
+
             
             foreach(var v in list) {
                 Console.WriteLine(v);
