@@ -24,6 +24,7 @@ namespace Hello {
             Console.WriteLine("Gustav er en dejlig drengn");
             Console.WriteLine("1337 haX0r");
             Console.WriteLine("Gustav er en dejlig dreng");
+            BetterMath();
             Console.ReadLine();
 
             insertStrings();
@@ -50,9 +51,10 @@ namespace Hello {
         }
 
 
-        public void BetterMath()
+        private static void BetterMath()
         {
             Console.WriteLine("i'm better lol");
+            Console.ReadLine();
         }
     }
 }
