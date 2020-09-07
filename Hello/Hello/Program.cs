@@ -15,6 +15,10 @@ namespace Hello {
                 flereTal[tal] = tal;
                 Console.WriteLine(tal);
             }
+            Console.WriteLine("Hej, Casper was here");
+            Console.WriteLine("LOL DUDE Same");
+            Console.WriteLine("Gustav er en dejlig drengn");
+            Console.WriteLine("1337 haX0r");
         }
     }
 }
