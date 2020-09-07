@@ -29,6 +29,7 @@ namespace Hello {
             foreach (var v in list) {
                 Console.WriteLine(v);
             }
+            Math();
 
         }
 
@@ -36,7 +37,7 @@ namespace Hello {
             list.Add("Casper was here");
         }
 
-        private void Math()
+        private static void Math()
         {
             Console.WriteLine("12345678");
             Console.ReadLine();
