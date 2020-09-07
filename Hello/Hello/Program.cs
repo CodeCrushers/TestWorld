@@ -10,6 +10,14 @@ namespace Hello {
         private static List<string> list = new List<string>();
 
         static void Main(string[] args) {
+            int tal = 10;
+            int[] flereTal = new int[10];
+            while (tal > 0)
+            {
+                tal--;
+                flereTal[tal] = tal;
+                Console.WriteLine(tal);
+            }
             Console.WriteLine("Hej, Casper was here");
             Console.WriteLine("LOL DUDE Same");
             Console.WriteLine("Gustav er en dejlig drengn");
@@ -22,6 +30,7 @@ namespace Hello {
             foreach (var v in list) {
                 Console.WriteLine(v);
             }
+            Math();
 
         }
 
@@ -29,7 +38,7 @@ namespace Hello {
             list.Add("Casper was here");
         }
 
-        private void Math()
+        private static void Math()
         {
             Console.WriteLine("12345678");
             Console.ReadLine();
