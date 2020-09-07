@@ -12,5 +12,10 @@ namespace Hello {
             Console.WriteLine("Gustav er en dejlig drengn");
             Console.WriteLine("1337 haX0r");
         }
+
+        private void Math()
+        {
+            Console.WriteLine("12345678");
+        }
     }
 }
