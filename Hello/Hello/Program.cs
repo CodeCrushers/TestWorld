@@ -15,6 +15,7 @@ namespace Hello {
             Console.WriteLine("Gustav er en dejlig drengn");
             Console.WriteLine("1337 haX0r");
             Console.WriteLine("Gustav er en dejlig dreng");
+            Console.ReadLine();
 
             insertStrings();
 
