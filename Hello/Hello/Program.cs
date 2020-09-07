@@ -8,6 +8,7 @@ namespace Hello {
     class Program {
         static void Main(string[] args) {
             Console.WriteLine("Hej, Casper was here");
+            Console.WriteLine("LOL DUDE Same");
         }
     }
 }
