@@ -12,10 +12,8 @@ namespace Hello {
         static void Main(string[] args) {
             Console.WriteLine("Hej, Casper was here");
             Console.WriteLine("LOL DUDE Same");
-<<<<<<< Updated upstream
             Console.WriteLine("Gustav er en dejlig drengn");
             Console.WriteLine("1337 haX0r");
-=======
             Console.WriteLine("Gustav er en dejlig dreng");
             
             foreach(var v in list) {
@@ -26,7 +24,6 @@ namespace Hello {
 
         private void insertStrings() {
             list.Add("Casper was here");
->>>>>>> Stashed changes
         }
     }
 }
